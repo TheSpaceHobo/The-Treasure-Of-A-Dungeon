@@ -1,37 +1,29 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<head>
+  <title>The Treasure Of A Dungeon</title>
+  <link rel="shortcut icon" type="image/ico" href="images/favicon.ico"/>
 
-You can use the [editor on GitHub](https://github.com/TheSpaceHobo/The-Treasure-Of-A-Dungeon/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+</head>
+<body>
+  <ol>
+    <li id="homebutton"><img src="images/Home-Button.gif" width="41px"/></li>
+    <li id="inventorybutton"><img src="images/Inventory-button.gif" width="41px" /></li>
+    <li id="settingsbutton"><img src="images/Settings_Button.gif" width="41px" /></li>
+    <li id="casebutton"><img src="images/cases-button.gif" width="41px" /></li>
+    <li id="moneydisplay">Displaydemoney</li>
+    <li id="lastnavbaritem"><img src="images/The Treasure of a dungeon.gif" height="41px" /></li>
+  </ol>
+  <button id="getmoneybutton" class="homeitem">Get Money</button>
+  <button onClick="give()">Get 10 Random Items</button>
+<br />
+  <div id="inventoryhtml"></div>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+</body>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+    <link href="https://fonts.googleapis.com/css?family=Electrolize" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	  <link rel='stylesheet' href='style.css'/>
+	  <script src='scriptexperiment.js'></script>
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/TheSpaceHobo/The-Treasure-Of-A-Dungeon/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
